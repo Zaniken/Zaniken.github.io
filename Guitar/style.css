@@ -1,7 +1,4 @@
-
-
-
-.noSelect  {
+.noSelect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -9,9 +6,34 @@
     -ms-user-select: none;
     user-select: none;
 }
-* {margin: 0; padding: 0;}
-#container {height: 100%; width:100%; font-size:0;}
-#left, #middle, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 18px;}
-#left {width: 60%; background: white;}
 
-#right {width: 40%; background: white;}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+    font-size: 0;
+}
+
+#left,
+#middle,
+#right {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+#left {
+    width: 60%;
+    background: #dedede;
+}
+
+#right {
+    width: 40%;
+    background: #dedede;
+}
