@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="websiteStyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -100,11 +101,9 @@
                 <div class="content">
                     <div class="portfolio">
                         <ul>
-                            <li>This was a project to create an artificial intelligence that could interact in the
-                                physical
-                                world.</li>
-                            <li>The type of AI used is known as ‘table based’ meaning each possible interaction the bot
-                                could have was hard coded.</li>
+                            <li>This was a project to create an artificial intelligence that could interact in the physical world.
+                            </li>
+                            <li>The type of AI used is known as ‘table based’ meaning each possible interaction the bot could have was hard coded.</li>
                             <li>The robot was assembled using Lego Mindstorm pieces.</li>
                             <li>The robots functionality was implemented in the C programming language.</li>
                         </ul>
@@ -169,9 +168,7 @@
                 <div class="content">
                     <div class="portfolio">
                         <ul>
-                            <li>This project was to create an application that could help guitar players memorize chords
-                                or
-                                look up chords.</li>
+                            <li>This project was to create an application that could help guitar players memorize chords or look up chords.</li>
                             <li>This project was a way for me to learn JavaScript on my own.</li>
                             <li>The Interface was made in HTML.</li>
                         </ul>
@@ -189,13 +186,9 @@
                 <div class="content">
                     <div class="portfolio">
                         <ul>
-                            <li>The primary role of this project was to utilize software engineering principles and
-                                implement proper documentation..</li>
-                            <li>The project itself was to create a website that would generate board game
-                                recommendations.
-                                The website's back end was created in Python.</li>
-                            <li>Documentation included: Model selection justification, Class diagrams, Unit Testing
-                                documentation, Functional Requirements, and Nonfunctional Requirements.</li>
+                            <li>The primary role of this project was to utilize software engineering principles and implement proper documentation..</li>
+                            <li>The project itself was to create a website that would generate board game recommendations. The website's back end was created in Python.</li>
+                            <li>Documentation included: Model selection justification, Class diagrams, Unit Testing documentation, Functional Requirements, and Nonfunctional Requirements.</li>
 
                         </ul>
                         <br>
@@ -233,125 +226,53 @@
 
                 <div class="capstone">
                     <h2>Overview</h2>
-                    <p>This was a graduation project to demonstrate the technical skills that I have acquired
-                        throughout my bachelor’s degree. In addition, this project contributed
-                        to
-                        my universities ambitious plan of offering virtual tours in Minecraft. The project consisted of
-                        creating a
-                        package of software that takes real life images of buildings and converts them into 3d
-                        Minecraft
-                        models. The project combined concepts from a variety of computer science topics such as
-                        algorithms,
+                    <p>This was a graduation project to demonstrate the technical skills that I have acquired throughout my bachelor’s degree. In addition, this project contributed to my universities ambitious plan of offering virtual tours in Minecraft.
+                        The project consisted of creating a package of software that takes real life images of buildings and converts them into 3d Minecraft models. The project combined concepts from a variety of computer science topics such as algorithms,
                         file structures, and software engineering.</p>
                     <h2>Project Timeline</h2>
                     <img src="images/Timeline.png" width="100%" height=auto>
                     <h2>Main Objectives</h2>
                     <h3>Create an algorithm that calculates the average color of an image.</h3>
                     <p>
-                        The need for an algorithm to find average color density was found in two areas, first to find
-                        the
-                        average
-                        color of a Minecraft block. Second, to find the average color density in small sections of
-                        images
-                        (in this
-                        case photos of walls). I was able to find resources on Java’s built-in
-                        image manipulation tools that saved a lot of time. I also used Java’s Color classes. The
-                        resulting
-                        algorithm is a simple double for loop that iterates over each pixel in a buffered image (or
-                        section
-                        of a
-                        buffered image) taking the RGB color values and adding them to their own
-                        individual
-                        sums. The total sums are then divided by the width*height of the image and returned as their
-                        color
-                        value or the total average color.
+                        The need for an algorithm to find average color density was found in two areas, first to find the average color of a Minecraft block. Second, to find the average color density in small sections of images (in this case photos of walls). I was able to find
+                        resources on Java’s built-in image manipulation tools that saved a lot of time. I also used Java’s Color classes. The resulting algorithm is a simple double for loop that iterates over each pixel in a buffered image (or section
+                        of a buffered image) taking the RGB color values and adding them to their own individual sums. The total sums are then divided by the width*height of the image and returned as their color value or the total average color.
                     </p>
-                    <h3>Create an algorithm that can use average color densities of sections of images to find their
-                        Minecraft block equivalent.</h3>
+                    <h3>Create an algorithm that can use average color densities of sections of images to find their Minecraft block equivalent.</h3>
                     <p>
-                        After getting color averages of blocks and image sections I needed a way to compare two
-                        colors.
-                        The answer I was looking for was utilizing the distance formula with color values. As colors are
-                        represented by their RGB values you can take the square of the intensity of red A minus red B
-                        and add
-                        that to the same formula for the green and blue values. If colors are very similar the number
-                        will be
-                        small if they are very different, they will be large. Using this algorithm, I looped through
-                        every
-                        Minecraft
-                        block and compared the color distances, swapping if the distance is lower. This process was used
-                        to create a
-                        2d array of Minecraft block equivalents that can be used as individual walls.
+                        After getting color averages of blocks and image sections I needed a way to compare two colors. The answer I was looking for was utilizing the distance formula with color values. As colors are represented by their RGB values you can take the square of
+                        the intensity of red A minus red B and add that to the same formula for the green and blue values. If colors are very similar the number will be small if they are very different, they will be large. Using this algorithm, I looped
+                        through every Minecraft block and compared the color distances, swapping if the distance is lower. This process was used to create a 2d array of Minecraft block equivalents that can be used as individual walls.
                     </p>
 
                     <img src="images/demo.PNG" width="100%" height=auto>
-                    <p>This is a demonstration of an image being converted into its average-color-tile representation
-                        and then into its Minecraft
-                        block equivalent. This was done using my software.</p>
-                    <h3>Be able to trace the outline of a building from a google maps screenshot to get the dimensions
-                        of
-                        a building</h3>
+                    <p>This is a demonstration of an image being converted into its average-color-tile representation and then into its Minecraft block equivalent. This was done using my software.</p>
+                    <h3>Be able to trace the outline of a building from a google maps screenshot to get the dimensions of a building</h3>
                     <p>
-                        A goal of mine was to have the scale of buildings translate to Minecraft I found that a
-                        one-to-one ratio
-                        looked bad and settled on a 5 to 1 meaning one meter in real life would be 5 meters in Minecraft
-                        (1
-                        block = 1 meter). For the sides of my generated building to be the correct length and be to
-                        scale I
-                        require the importing of a google maps image of the building. Google maps provides a meter bar
-                        that
-                        can be used to measure the building. I take a user text entry of the meter scale number and then
-                        have
-                        them click each end of the meter bar. Separate from the GUI these inputs calculate the number of
-                        pixels
-                        on the image that would equal 1 meter. With this information I can then have the user outline
-                        the
-                        building clicking on each corner in a clockwise manner. The building dimensions are then stored
-                        with
-                        their corresponding wall number. At this point it is of note that my software is only capable of
-                        converting rectangular shaped buildings due to the exponential number of variables of
-                        non-rectangular
-                        buildings and my own time and energy constraints.
+                        A goal of mine was to have the scale of buildings translate to Minecraft I found that a one-to-one ratio looked bad and settled on a 5 to 1 meaning one meter in real life would be 5 meters in Minecraft (1 block = 1 meter). For the sides of my generated
+                        building to be the correct length and be to scale I require the importing of a google maps image of the building. Google maps provides a meter bar that can be used to measure the building. I take a user text entry of the meter
+                        scale number and then have them click each end of the meter bar. Separate from the GUI these inputs calculate the number of pixels on the image that would equal 1 meter. With this information I can then have the user outline the
+                        building clicking on each corner in a clockwise manner. The building dimensions are then stored with their corresponding wall number. At this point it is of note that my software is only capable of converting rectangular shaped
+                        buildings due to the exponential number of variables of non-rectangular buildings and my own time and energy constraints.
                     </p>
                     <img src="images/gui.PNG" width="100%" heigh=auto;>
-                    <h3>Convert the processed information into the schematic file type that is usable by 3rd party
-                        Minecraft building software</h3>
-                    <p>I now had the problem of knowing what blocks each of my building walls were going to be made of
-                        in
-                        addition to the size of each wall, but I had no way of making that in Minecraft. I ended up
-                        researching
-                        and reverse engineering the file types used by Minecraft and its third-party software. NBT is a
-                        custom
-                        file type created for Minecraft to store block data and location data, WorldEdit (a 3
-                        rd party world editing
-                        software for Minecraft, the tool I used to paste my processed buildings into Minecraft), uses
-                        their own
-                        version of an NBT file called “.schematics”; there is very little documentation on WorldEdit’s
-                        schematic
-                        file type and to make things more confusing other Minecraft editing software have their own
-                        incompatible versions of schematics. To replicate the files made by WorldEdit in my own software
-                        I used
-                        file analysis techniques including creating files using their software and analyzing them with a
-                        hex editor
-                        gaining an understanding of the general file structure and deconstructing the WorldEdit source
-                        code and
-                        isolating the relevant code. I also took advantage of JNBT which is a Java library that handles
-                        the actual
-                        writing of the NBT file, but not the file structure. I was able to compare the files I was
-                        making with JNBT
-                        with WorldEdit’s own schematic files until they eventually matched and were compatible.
+                    <h3>Convert the processed information into the schematic file type that is usable by 3rd party Minecraft building software</h3>
+                    <p>I now had the problem of knowing what blocks each of my building walls were going to be made of in addition to the size of each wall, but I had no way of making that in Minecraft. I ended up researching and reverse engineering the
+                        file types used by Minecraft and its third-party software. NBT is a custom file type created for Minecraft to store block data and location data, WorldEdit (a 3 rd party world editing software for Minecraft, the tool I used to
+                        paste my processed buildings into Minecraft), uses their own version of an NBT file called “.schematics”; there is very little documentation on WorldEdit’s schematic file type and to make things more confusing other Minecraft editing
+                        software have their own incompatible versions of schematics. To replicate the files made by WorldEdit in my own software I used file analysis techniques including creating files using their software and analyzing them with a hex
+                        editor gaining an understanding of the general file structure and deconstructing the WorldEdit source code and isolating the relevant code. I also took advantage of JNBT which is a Java library that handles the actual writing of
+                        the NBT file, but not the file structure. I was able to compare the files I was making with JNBT with WorldEdit’s own schematic files until they eventually matched and were compatible.
                     </p>
                     <img src="images/buildings.png" width="100%" height=auto>
                     <h3>Completed Class Diagram</h3>
                     <img src="images/class.png" width="100%" height=auto>
-                    
-                   
+
+
                 </div>
                 <p>
                     <!-- <span id="left">Denali Park Zipline</span> -->
-                    <a
-                            href="https://github.com/Zaniken/minecraft-2dpicturesTo3dModels/blob/main/Report.pdf"
-                            target="_blank">Full Project Report and Source Code on GitHub</a>
+                    <a href="https://github.com/Zaniken/minecraft-2dpicturesTo3dModels/blob/main/Report.pdf" target="_blank">Full Project Report and Source Code on GitHub</a>
                 </p>
 
             </div>
@@ -369,52 +290,44 @@
                 <ul class="list">
                     <li>
                         <div class="container">
-                            <div class="skills ninety"> <span class="listItemName">Java </span><span
-                                    class="listItemValue">9</span> </div>
+                            <div class="skills ninety"> <span class="listItemName">Java </span><span class="listItemValue">9</span> </div>
                         </div>
                     </li>
                     <li>
                         <div class="container">
-                            <div class="skills eighty"> <span class="listItemName">HTML5/CSS</span><span
-                                    class="listItemValue">8</span> </div>
+                            <div class="skills eighty"> <span class="listItemName">HTML5/CSS</span><span class="listItemValue">8</span> </div>
                         </div>
                     </li>
                     <li>
                         <div class="container">
-                            <div class="skills seventy"> <span class="listItemName">C/C++ </span><span
-                                    class="listItemValue">7</span> </div>
+                            <div class="skills seventy"> <span class="listItemName">C/C++ </span><span class="listItemValue">7</span> </div>
                         </div>
                     </li>
                     <li>
                         <div class="container">
-                            <div class="skills seventy"> <span class="listItemName">Kotlin </span><span
-                                    class="listItemValue">7</span> </div>
+                            <div class="skills seventy"> <span class="listItemName">Kotlin </span><span class="listItemValue">7</span> </div>
                         </div>
                     </li>
                     <li>
                         <div class="container">
-                            <div class="skills seventy"> <span class="listItemName">JavaScript </span><span
-                                    class="listItemValue">7</span> </div>
+                            <div class="skills seventy"> <span class="listItemName">JavaScript </span><span class="listItemValue">7</span> </div>
                         </div>
                     </li>
                     <li>
                         <div class="container">
-                            <div class="skills sixty"> <span class="listItemName">SQL </span><span
-                                    class="listItemValue">6</span> </div>
+                            <div class="skills sixty"> <span class="listItemName">SQL </span><span class="listItemValue">6</span> </div>
                         </div>
                     </li>
 
                     <li>
                         <div class="container">
-                            <div class="skills thirty"> <span class="listItemName">React </span><span
-                                    class="listItemValue">3</span> </div>
+                            <div class="skills thirty"> <span class="listItemName">React </span><span class="listItemValue">3</span> </div>
                         </div>
                     </li>
 
                     <li>
                         <div class="container">
-                            <div class="skills thirty"> <span class="listItemName">PHP </span><span
-                                    class="listItemValue">3</span> </div>
+                            <div class="skills thirty"> <span class="listItemName">PHP </span><span class="listItemValue">3</span> </div>
                         </div>
                     </li>
                     <!-- <li>C/C++</li>
@@ -430,32 +343,27 @@
 
                     <li>
                         <div class="container">
-                            <div class="skills eighty"> <span class="listItemName">OOP Paradigm </span><span
-                                    class="listItemValue">8</span> </div>
+                            <div class="skills eighty"> <span class="listItemName">OOP Paradigm </span><span class="listItemValue">8</span> </div>
                         </div>
                     </li>
                     <li>
                         <div class="container">
-                            <div class="skills eighty"> <span class="listItemName">Communication </span><span
-                                    class="listItemValue">8</span> </div>
+                            <div class="skills eighty"> <span class="listItemName">Communication </span><span class="listItemValue">8</span> </div>
                         </div>
                     </li>
                     <li>
                         <div class="container">
-                            <div class="skills seventy"> <span class="listItemName">Documentation </span><span
-                                    class="listItemValue">7</span> </div>
+                            <div class="skills seventy"> <span class="listItemName">Documentation </span><span class="listItemValue">7</span> </div>
                         </div>
                     </li>
                     <li>
                         <div class="container">
-                            <div class="skills sixty"> <span class="listItemName">Version Control/Git </span><span
-                                    class="listItemValue">6</span> </div>
+                            <div class="skills sixty"> <span class="listItemName">Version Control/Git </span><span class="listItemValue">6</span> </div>
                         </div>
                     </li>
                     <li>
                         <div class="container">
-                            <div class="skills fifty"> <span class="listItemName">FireBase/AWS </span><span
-                                    class="listItemValue">5</span> </div>
+                            <div class="skills fifty"> <span class="listItemName">FireBase/AWS </span><span class="listItemValue">5</span> </div>
                         </div>
                     </li>
 
